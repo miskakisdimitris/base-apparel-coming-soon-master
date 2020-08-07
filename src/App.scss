@@ -1,0 +1,120 @@
+#body-style {
+  position: absolute;
+  background-color: #f0f0f0;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#arrows-div {
+  position: absolute;
+  top: 17%;
+}
+
+#arrow-svg-1 {
+  transform: rotate(270deg);
+  position: absolute;
+  left: -105px;
+  #path-style {
+    fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke: #f4c7c8;stroke-opacity:1;stroke-miterlimit:4;
+  }
+}
+
+#arrow-svg-2 {
+  transform: rotate(270deg);
+  position: absolute;
+  left: 40px;
+  #path-style {
+    fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke: #f4c7c8;stroke-opacity:1;stroke-miterlimit:4;
+  }
+}
+
+#arrow-svg-3 {
+  transform: rotate(270deg);
+  position: absolute;
+  left: 186px;
+  #path-style {
+    fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke: #f4c7c8;stroke-opacity:1;stroke-miterlimit:4;
+  }
+}
+
+#main-div {
+  display: flex;
+  background-color: #fff;
+  width: 1276px;
+  height: 700px;
+  position: absolute;
+  left: 17%;
+  top: 12%;
+}
+
+#text-div {
+    
+  position: relative;
+  left: 10%;
+  top: 15%;
+  width: 539px;
+  height: 85%;
+}
+
+#logo-svg {
+  position: relative;
+}
+
+#coming-soon-par {
+  position: relative;
+  top: 0%;
+  font-size: 59px;
+  white-space: pre-wrap;
+
+}
+
+#sub-text-1-coming-soon-par {
+  font-family: Josefin Sans;
+  color: #C5999A;
+}
+
+#sub-text-2-coming-soon-par {
+  font-family: Josefin Sans;
+  color: #4B4243;
+  
+}
+
+#main-text {
+  position: relative;
+  color: #D0B6B7;
+  font-size: 17px;
+}
+
+.input {
+  border: 1px solid hsl(0, 36%, 70%);
+  padding: 10px;
+  width: 20rem;
+  font-weight: 400;
+  color: hsl(0, 36%, 70%);
+  outline: none;
+  border-radius: 25px;
+}
+
+
+.btn {
+  border-radius: 25px;
+  position: absolute;
+  border: transparent;
+  outline: transparent;
+  cursor: pointer;
+  width: 85px;
+  height: 45px;
+  margin: 0rem 0rem 0rem -3rem;
+  box-shadow: 0 5px 15px #debaba;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+  left: 307px;
+  top: 446px;
+}
+
+#woman-img {
+    
+  height: auto;
+  position: absolute;
+  left: 743px;
+}
